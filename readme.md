@@ -60,6 +60,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [ipfs](https://github.com/jbenet/node-ipfs) - Distributed file system that seeks to connect all computing devices with the same system of files.
 - [Breach](http://breach.cc) - Modular and hackable browser written in JavaScript.
 - [peerwiki](https://github.com/mafintosh/peerwiki) - All of Wikipedia on BitTorrent.
+- [peercast](https://github.com/mafintosh/peercast) - Stream a torrent video to Chromecast.
 - [BitcoinJS](http://bitcoinjs.org) - Clean, readable, proven Bitcoin library.
 - [js-git](https://github.com/creationix/js-git) - JavaScript implementation of Git.
 - [NodeOS](http://node-os.com) - The first operating system powered by npm.
@@ -80,13 +81,19 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [David](https://github.com/alanshaw/david) - Tells you when your package npm dependencies are out of date.
 - [vtop](https://github.com/MrRio/vtop) - More better top, with nice charts.
 - [tmpin](https://github.com/sindresorhus/tmpin) - Adds stdin support to any CLI app that accepts file input.
+- [empty-trash](https://github.com/sindresorhus/empty-trash) - Empty the trash.
 - [normit](https://github.com/pawurb/normit) - Google Translate with speech synthesis in your terminal.
 - [esformatter](https://github.com/millermedeiros/esformatter) - JavaScript code beautifier/formatter.
 - [is-up](https://github.com/sindresorhus/is-up) - Check whether a website is up or down.
-- [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
+- [is-online](https://github.com/sindresorhus/is-online) - Check if the internet connection is up.
+- [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address.
 - [http-server](https://github.com/nodeapps/http-server) - Simple, zero-config command-line HTTP server.
 - [bcat](https://github.com/kessler/node-bcat) - Pipe command output to web browsers.
 - [slap](https://github.com/slap-editor/slap) - Sublime-like terminal-based text editor.
+- [jsinspect](https://github.com/danielstjules/jsinspect) - Detect copy-pasted and structurally similar code.
+- [pjs](https://github.com/danielstjules/pjs) - Pipeable JavaScript. Quickly filter, map, and reduce from the terminal.
+- [license-checker](https://github.com/davglass/license-checker) - Check licenses of your app's dependencies.
+- [browser-run](https://github.com/juliangruber/browser-run) - Easily run code in a browser environment.
 
 
 ### Functional programming
@@ -98,13 +105,16 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [immutable](https://github.com/facebook/immutable-js) - Immutable data collections.
 - [underscore-contrib](http://documentcloud.github.io/underscore-contrib/) - The brass buckles on Underscore's utility belt.
 - [Bacon.js](http://baconjs.github.io) - Functional reactive programming.
+- [RxJS](http://reactive-extensions.github.io/RxJS/) - Functional reactive library for transforming, composing, and querying various kinds of data.
 - [Lazy.js](https://github.com/dtao/lazy.js/) - Utility library similar to Lo-Dash/Underscore but with lazy evaluation, which can translate to superior performance in many cases.
+
 
 ### HTTP
 
 - [request](https://github.com/mikeal/request) - Simplified HTTP request client.
 - [got](https://github.com/sindresorhus/got) / [sent](https://github.com/floatdrop/sent) - A nicer interface to the built-in `http` module.
 - [superagent](https://github.com/visionmedia/superagent) - A small progressive HTTP request library.
+- [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too).
 - [hyperquest](https://github.com/substack/hyperquest) - Streaming HTTP requests.
 - [spdy](https://github.com/indutny/node-spdy) - Creates SPDY servers with the same API as the built-in `https` module.
 - [Nock](https://github.com/pgte/nock) - A HTTP mocking and expectations library.
@@ -149,6 +159,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Command-line utilities
 
 - [chalk](https://github.com/sindresorhus/chalk) - Terminal string styling done right.
+- [meow](https://github.com/sindresorhus/meow) - CLI app helper.
 - [minimist](https://github.com/substack/minimist) - Parse command-line flags.
 - [get-stdin](https://github.com/sindresorhus/get-stdin) - Easier stdin.
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Interactive command-line prompt.
@@ -166,6 +177,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [googleauth](https://github.com/maxogden/googleauth) - Create and load persistent Google authentication tokens for command-line apps.
 - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows CMD fallbacks.
 - [cli-cursor](https://github.com/sindresorhus/cli-cursor) - Toggle the CLI cursor.
+- [ascii-charts](https://github.com/jstrace/chart) - ASCII bar chart in the terminal.
 
 
 ### Package managers
@@ -185,6 +197,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [browserify](https://github.com/substack/node-browserify) - Browser-side require() the Node.js way.
 - [webpack](https://github.com/webpack/webpack) - Packs CommonJS/AMD modules for the browser.
 - [Brunch](https://github.com/brunch/brunch) - Front-end web app build tool with simple declarative config, fast incremental compilation, and an opinionated workflow.
+
 
 ### Hardware
 
@@ -220,6 +233,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [mkdirp](https://github.com/substack/node-mkdirp) - Recursively create directories like `mkdir -p`.
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Drop-in replacement for the `fs` module with various improvements.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
+- [fs-write-stream-atomic](https://github.com/npm/fs-write-stream-atomic) - Like `fs.createWriteStream()`, but atomic.
+- [lnfs](https://github.com/kevva/lnfs) - Force create symlinks like `ln -fs`.
+- [chokidar](https://github.com/paulmillr/chokidar) - Filesystem watcher which stabilizes events from `fs.watch` and `fs.watchFile` as well as using native `fsevents` on OS X.
+- [gaze](https://github.com/shama/gaze) - A globbing watch module which uses custom native binaries to listen to filesystem events.
 
 
 ### Control flow
@@ -242,6 +259,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - Other
 	- [zone](https://github.com/strongloop/zone) - Provides a way to group and track resources and errors across asynchronous operations.
 
+
 ### Streams
 
 - [through2](https://github.com/rvagg/through2) - Tiny wrapper around streams2 Transform to avoid explicit subclassing noise.
@@ -260,11 +278,14 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [graphicsmagick-stream](https://github.com/e-conomic/graphicsmagick-stream/) - Fast conversion/scaling of images using a pool of long lived graphicsmagick processes.
 - [readable-stream](https://github.com/isaacs/readable-stream) - Mirror of Streams2 and Streams3 implementations in core.
 - [s3-upload-stream](https://github.com/nathanpeck/s3-upload-stream) - Upload a stream to an Amazon S3 bucket using multipart upload.
+- [through2-concurrent](https://github.com/almost/through2-concurrent) - Transform object streams concurrently.
+- [stream-combiner2](https://github.com/substack/stream-combiner2) - Turn a pipeline into a single stream.
 
 
 ### Real-time
 
 - [Socket.io](http://socket.io) - Enables real-time bidirectional event-based communication.
+- [SockJS](https://github.com/sockjs/sockjs-node) - Low latency, full duplex, cross-domain channel browser-server, with WebSockets or without.
 - [SocketCluster](https://github.com/topcloud/socketcluster) - Scalable HTTP + WebSocket engine which can run on multiple CPU cores.
 - [Primus](https://github.com/primus/primus) - An abstraction layer for real-time frameworks to prevent module lock-in.
 - [Straw](https://github.com/simonswain/straw) - Real-time dataflow framework.
@@ -273,6 +294,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Date
 
 - [Moment.js](http://momentjs.com) - Parse, validate, manipulate, and display dates.
+- [Moment Timezone](http://momentjs.com/timezone/) - IANA Time Zone Database + Moment.js.
 - [dateformat](https://github.com/felixge/node-dateformat) - Date formatting.
 
 
@@ -281,7 +303,8 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [sharp](https://github.com/lovell/sharp) - The fastest module for resizing JPEG, PNG, WebP and TIFF images.
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
 - [gm](https://github.com/aheckmann/gm) - GraphicsMagick and ImageMagick wrapper.
-
+- [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
+- [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed.
 
 ### Text
 
@@ -293,6 +316,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string.
 - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code.
 - [i18n-node](https://github.com/mashpie/i18n-node) - Simple translation module with dynamic JSON storage.
+- [babelfish](https://github.com/nodeca/babelfish/) - i18n with very easy syntax for plurals.
 - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
 - [speakingurl](https://github.com/pid/speakingurl) - Generate a slug from a string with transliteration.
 
@@ -313,6 +337,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [css](https://github.com/reworkcss/css) - CSS parser / stringifier.
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - Strip comments from JSON.
 - [marked](https://github.com/chjj/marked) - A markdown parser and compiler built for speed.
+- [remarkable](https://github.com/jonschlinkert/remarkable) - A very fast markdown parser with 100% CommonMark support, extensions and syntax plugins.
 - [js-yaml](https://github.com/nodeca/js-yaml) - Very fast YAML parser.
 - [URI.js](https://github.com/medialize/URI.js) - URL mutation.
 - [JSONStream](https://github.com/dominictarr/JSONStream) - Streaming JSON.parse and stringify.
@@ -322,6 +347,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [htmlparser2](https://github.com/fb55/htmlparser2/) - Forgiving HTML/XML parser.
 - [PostCSS](https://github.com/postcss/postcss) - Framework for CSS postprocessors, to modify CSS.
 - [PEG.js](https://github.com/dmajda/pegjs) - Simple parser generator that produces fast parsers with excellent error reporting.
+- [binary-extract](https://github.com/juliangruber/binary-extract) - Extract a value from a buffer of JSON without parsing the whole thing.
 
 
 ### Humanize
@@ -340,6 +366,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [decompress-zip](https://github.com/bower/decompress-zip) - Unzip.
 - [tar-stream](https://github.com/mafintosh/tar-stream) - Streaming tar parser and generator. Also see [tar-fs](https://github.com/mafintosh/tar-fs).
 - [decompress](https://github.com/kevva/decompress) - A pluggable decompression module with support for `tar`, `tar.gz` and `zip` files out of the box.
+- [pako](https://github.com/nodeca/pako) - High speed zlib port to pure js (deflate, inflate, gzip).
 
 
 ### Network
@@ -396,12 +423,13 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Testing
 
 - [tape](https://github.com/substack/tape) - [TAP](http://testanything.org)-producing test harness.
-- [Mocha](http://visionmedia.github.io/mocha/) - A feature-rich test framework making asynchronous testing simple and fun.
+- [Mocha](http://mochajs.org/) - A feature-rich test framework making asynchronous testing simple and fun.
 - [Mochify](https://github.com/mantoni/mochify.js) - TDD with Browserify, Mocha, PhantomJS and WebDriver.
 - [loadtest](https://github.com/alexfernandez/loadtest) - Run load tests for your web application, with an API for automation.
 - [istanbul](https://github.com/gotwarlost/istanbul) - A code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests.
 - [Sinon.JS](https://github.com/cjohansen/Sinon.JS) - Test spies, stubs and mocks.
 - [Karma](http://karma-runner.github.io) - Executes code in multiple real browsers.
+- [Nightmare](http://nightmarejs.org) - High-level PhantomJS wrapper that lets you automate browser tasks.
 
 
 ### Benchmarking
@@ -431,6 +459,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [n](https://github.com/visionmedia/n) - Node.js version management.
 - [nave](https://github.com/isaacs/nave) - Virtual Environments for Node.js.
 - [nodeenv](https://github.com/ekalinin/nodeenv) - A Node.js virtual environment compatible to Python's virtualenv.
+- [nvm for Windows](https://github.com/coreybutler/nvm-windows) - Version management for Windows.
 
 
 ### Email
@@ -448,9 +477,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ### Natural language processing
 
-- [natural](https://github.com/NaturalNode/natural) - A general natural language facility.
 - [retext](https://github.com/wooorm/retext) - An extensible natural language system.
+- [franc](https://github.com/wooorm/franc) - Detect the language of text.
 - [leven](https://github.com/sindresorhus/leven) - Measure the difference between two strings using the Levenshtein distance algorithm.
+- [natural](https://github.com/NaturalNode/natural) - A general natural language facility.
 
 
 ### Process management
@@ -462,6 +492,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [supervisor](https://github.com/isaacs/node-supervisor) - Restart scripts when they crash or restart when a `*.js` file changes.
 - [PM2](https://github.com/Unitech/pm2) - Advanced Process Manager.
 - [Phusion Passenger](https://www.phusionpassenger.com/node_weekly) - Friendly process manager that integrates directly into Nginx.
+- [naught](https://github.com/andrewrk/naught) - Process manager with zero downtime deployment.
 
 
 ### AST
@@ -495,6 +526,9 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [node-pre-gyp](https://github.com/mapbox/node-pre-gyp/) - Makes it easy to publish and install Node.js C++ addons from binaries.
 - [opencv](https://github.com/peterbraden/node-opencv) - Bindings for OpenCV. The defacto computer vision library.
 - [common-errors](https://github.com/shutterstock/node-common-errors) - Common error classes and utility functions.
+- [atom-shell](https://github.com/atom/atom-shell) - Cross-platform desktop application shell.
+- [agenda](https://github.com/rschmukler/agenda) - Lightweight job scheduling on MongoDB.
+- [node-bell](https://github.com/eleme/node-bell) - Real-time anomalies detection for periodic time series.
 
 
 ## Resources
@@ -505,6 +539,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [The Art of Node](https://github.com/maxogden/art-of-node/#the-art-of-node) - An introduction to Node.js.
 - [stream-handbook](https://github.com/substack/stream-handbook) - How to write Node.js programs with streams.
 - [browserify-handbook](https://github.com/substack/browserify-handbook) - The definitive guide for browserify.
+- [module-best-practices](https://github.com/mattdesl/module-best-practices) - Some good practices when writing new npm modules.
 
 ### Discovery
 
@@ -513,6 +548,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Articles
 
 - [Error Handling in Node.js](http://www.joyent.com/developers/node/design/errors)
+- [Teach Yourself Node.JS in 10 Steps](http://ponyfoo.com/articles/teach-yourself-nodejs-in-10-steps)
 
 ### Newsletters
 
@@ -522,6 +558,9 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 - [Introduction to Node.js with Ryan Dahl](https://www.youtube.com/watch?v=jo_B4LTHi3I)
 - [LearnAllTheNodes](http://www.learnallthenodes.com) - Series of useful tips, tricks, and packages.
+- [Introduction to Node.js Fundamentals](http://strongloop.com/node-js/videos/#a-video-intro-to-nodejs-fundamentals)
+- [Hands on with Node.js](https://learn.bevry.me/node/preface)
+- [Full Streams Ahead](http://dry.ly/full-streams-ahead) - Introduction to streams.
 
 ### Podcasts
 
@@ -530,10 +569,11 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Books
 
 - [Node.js in Action](http://www.amazon.com/Node-js-Action-Mike-Cantelon/dp/1617290572)
-- [Mastering Node](http://visionmedia.github.io/masteringnode/)
+- [Mastering Node](http://tj.github.io/masteringnode/)
 - [Professional Node.js: Building Javascript Based Scalable Software](http://www.amazon.com/Professional-Node-js-Building-Javascript-Scalable-ebook/dp/B009L7QETY/)
 - [Practical Node.js: Building Real-World Scalable Web Apps](http://practicalnodebook.com)
 - [Mixu's Node book](http://book.mixu.net/node/)
+- [Web Development with Node and Express](http://shop.oreilly.com/product/0636920032977.do)
 
 ### Blogs
 
